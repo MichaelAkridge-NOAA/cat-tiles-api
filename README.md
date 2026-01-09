@@ -5,7 +5,7 @@
 
 A standalone FastAPI tile server designed for deployment to **Posit Connect**, enabling the CAT frontend to be hosted as a static sites while serving dynamic map tiles from Google Cloud Storage.
 
-## Overview
+### Overview
 
 This API provides TiTiler-based tile serving for Cloud-Optimized GeoTIFF (COG) files stored in **Google Cloud Storage public buckets**. It's specifically designed to work with the CAT annotation tool, allowing the frontend to remain static while tiles are served dynamically.
 
